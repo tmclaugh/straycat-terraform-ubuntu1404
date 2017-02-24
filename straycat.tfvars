@@ -24,9 +24,9 @@ svc_name = "ubuntu1404"
 ami_id = "ami-a95044be"
 instance_type = "t1.micro"
 
-asg_min_size            = 1
-asg_max_size            = 1
-asg_desired_capacity    = 1
+asg_min_size            = 0
+asg_max_size            = 0
+asg_desired_capacity    = 0
 
 subnet_type = "public"
 
