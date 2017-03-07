@@ -15,7 +15,7 @@ terragrunt = {
 * aws vars for Terraform
 */
 domain                  = "straycat.dhs.org"
-account_id              = "straycat"  # AWS credentials profile name
+aws_account             = "straycat"  # AWS credentials profile name
 aws_profile             = "straycat"
 aws_region              = "us-east-1"
 instance_key_name       = "straycat-tmclaugh-threatstack"
